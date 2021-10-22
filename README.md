@@ -1,4 +1,11 @@
-# Solana React Quickstart
+# Sol Stash Adventure
+
+## Information
+
+This app was made using https://github.com/dvcrn/solana-react-quickstart
+
+
+## Solana React Quickstart
 
 This is a simple CRA app with TypeScript and Solana wallet connection through wallet-adapter
 
@@ -10,7 +17,7 @@ Includes:
 
 ![screenshot](./screenshot.png)
 
-## Run
+### Run
 
 ```
 yarn start
@@ -22,7 +29,7 @@ or
 npm run start
 ```
 
-## How do I sign transactions??
+### How do I sign transactions??
 
 Create your transaction as usual and use `wallet.signTransaction()`:
 
@@ -38,11 +45,11 @@ const transactionHash = await web3.sendAndConfirmRawTransaction(
 );
 ```
 
-## If you use anchor
+### If you use anchor
 
 swap out `useWallet` with `useAnchorWallet` in `MyWallet.tsx`
 
 
-## License
+### License
 
 MIT
