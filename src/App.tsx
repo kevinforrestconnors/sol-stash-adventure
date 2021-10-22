@@ -13,8 +13,7 @@ import {
   getSlopeWallet,
   getSolflareWallet,
   getSolletExtensionWallet,
-  getSolletWallet,
-  getTorusWallet,
+  getSolletWallet
 } from "@solana/wallet-adapter-wallets";
 import { clusterApiUrl } from "@solana/web3.js";
 import MyWallet from './MyWallet';
